@@ -16,3 +16,7 @@ li {
     max-width: 1280px;
     margin: auto;
 }
+
+header .menu {
+    display: flex;
+}
