@@ -24,8 +24,11 @@ li {
 }
 
 header {
-    background: url(Images/geo-banner-allblack.png);
+    background: url(Images/vector.png);
+    background-color: #343333;
+    background-size: 10%;
     height: 80vh;
+    
 }
 
 header .menu {
@@ -56,11 +59,12 @@ nav ul li {
     color: white;
 }
 
-header .boton a {
+header .boton a, #discography a {
     color: black;
     background: yellow;
     padding: 10px 20px;
     line-height: 50px;
+    font-weight: 900;
 }
 
 header .title {
@@ -69,8 +73,8 @@ header .title {
 }
 
 h1 {
-    font-style: 80px;
-    width: 50%;
+    font-size: 50px;
+    width: 80%;
 }
 
 .us {
@@ -87,4 +91,50 @@ h1 {
 
 .yellow {
     color: yellow;
+}
+
+#discography {
+    background: #343333;
+    color: white;
+    padding: 60px 30px}
+
+#discography h4 {
+    margin: 0;
+    color: yellow;
+    border: 1px solid #ccc;
+    width: 85px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#discography .container {
+display: flex;
+align-items: center;
+}
+
+#discography span {
+    color: yellow;
+}
+
+#discography h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#discography p {
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+#discography img {
+    width: 100%;
+}
+
+#discography .text {
+    width: 50%;
+}
+
+#discography .cover {
+    width: 20%;
 }
