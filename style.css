@@ -23,6 +23,8 @@ li {
     margin: auto;
 }
 
+/* STYLES FOR HEADER */
+
 header {
     background: url(Images/vector.png);
     background-color: #343333;
@@ -97,6 +99,8 @@ h1 {
     color: yellow;
 }
 
+/* STYLES FOR DISCOGRAPHY SECTION */
+
 #discography {
     background: #343333;
     color: white;
@@ -152,7 +156,7 @@ align-items: center;
 }
 
 #about {
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 #about h4 {
@@ -164,3 +168,73 @@ align-items: center;
 .black {
     background: #aaa !important;
 }
+
+/* STYLES FOR SHOWS SECTION */
+
+#shows {
+    background: yellow;
+    padding: 60px 0;
+}
+
+#shows .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#shows img {
+    width: 60%;
+}
+
+#shows .image {
+    width: 40%;
+    position: relative;
+    top: -100px;
+}
+
+#shows .text {
+    width: 50%;
+}
+
+#shows h4 {
+    color: #000;
+    text-align: center;
+}
+
+.concerts {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #cccccc57;
+    padding-bottom: 30px;
+}
+
+.concerts .number {
+    font-size: 34px;
+}
+
+.date h5, .date p {
+    margin: 0;
+}
+
+.concerts .location {
+    width: 30%;
+}
+
+.location h5, .location p {
+    margin: 0;
+}
+
+.concerts a {
+    background: #fff;
+    color: #000;
+    padding: 15px 30px;
+}
+
+.concerts h5 {
+    font-size: 20px;
+}
+
+/* STYLES FOR FOOTER */
+
