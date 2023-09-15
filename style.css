@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'Adam';
+    src: url(fonts/Adam.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Adam';
+    font-family: 'Jost';
 }
 
 a {
@@ -10,11 +15,6 @@ a {
 
 li {
     list-style: none;
-}
-
-@font-face {
-    font-family: 'Adam';
-    src: url(fonts/Adam.ttf);
 }
 
 .container {
@@ -59,7 +59,8 @@ nav ul li {
     color: white;
 }
 
-header .boton a, #discography a {
+header .boton a, #discography a, #about a {
+    font-family: 'Jost';
     color: black;
     background: yellow;
     padding: 10px 20px;
@@ -68,6 +69,7 @@ header .boton a, #discography a {
 }
 
 header .title {
+    font-family: 'Adam';
     margin-top: 30vh;
     color: white;
 }
@@ -78,12 +80,14 @@ h1 {
 }
 
 .us {
+    font-family: 'Jost';
     background: yellow;
     padding: 10px 30px;
     line-height: 50px;
 }
 
 .tour {
+    font-family: 'Jost';
     background: white;
     padding: 10px 30px;
     line-height: 50px;
@@ -98,13 +102,16 @@ h1 {
     color: white;
     padding: 60px 30px}
 
-#discography h4 {
+h4 {
     margin: 0;
     color: yellow;
+    font-weight: normal;
     border: 1px solid #ccc;
     width: 85px;
     padding: 3px;
     border-radius: 10px;
+    text-align: center;
+
 }
 
 #discography .container {
@@ -112,18 +119,19 @@ display: flex;
 align-items: center;
 }
 
+#discography h2 {
+    font-family: 'Adam';
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
 #discography span {
     color: yellow;
 }
 
-#discography h2 {
-    font-size: 50px;
-    margin-bottom: 10px;
-}
-
 #discography p {
+    font-family: 'Jost';
     font-size: 18px;
-    font-weight: bolder;
     line-height: 25px;
 }
 
@@ -137,4 +145,22 @@ align-items: center;
 
 #discography .cover {
     width: 20%;
+}
+
+.text-container {
+    display: flex;
+}
+
+#about {
+    padding: 60px 0;
+}
+
+#about h4 {
+    color: #000;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.black {
+    background: #aaa !important;
 }
