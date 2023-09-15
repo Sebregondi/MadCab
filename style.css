@@ -1,11 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-@font-face {
-    font-family: ;
-    src: url();
+    font-family: 'Adam';
 }
 
 a {
@@ -16,6 +12,11 @@ li {
     list-style: none;
 }
 
+@font-face {
+    font-family: 'Adam';
+    src: url(fonts/Adam.ttf);
+}
+
 .container {
     width: 90%;
     max-width: 1280px;
@@ -24,19 +25,21 @@ li {
 
 header {
     background: url(Images/geo-banner-allblack.png);
+    height: 80vh;
 }
 
 header .menu {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
-img {
-    max-width: 100px;
-    max-height: 100px;
+header .logo-img {
+    max-width: 70px;
+    max-height: 70px;
 }
 
-header .logo-menue {
+header .logo-menu {
     display: flex;
     align-items: center;
 }
@@ -54,9 +57,9 @@ nav ul li {
 }
 
 header .boton a {
-    background: yellow;
     color: black;
-    padding: 20px 40px;
+    background: yellow;
+    padding: 10px 20px;
     line-height: 50px;
 }
 
@@ -67,5 +70,21 @@ header .title {
 
 h1 {
     font-style: 80px;
+    width: 50%;
+}
 
+.us {
+    background: yellow;
+    padding: 10px 30px;
+    line-height: 50px;
+}
+
+.tour {
+    background: white;
+    padding: 10px 30px;
+    line-height: 50px;
+}
+
+.yellow {
+    color: yellow;
 }
