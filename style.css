@@ -238,3 +238,18 @@ align-items: center;
 
 /* STYLES FOR FOOTER */
 
+footer {
+    text-align: center;
+    padding: 60px 0;
+    width: 100%;
+}
+
+footer i {
+    font-size: 30px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
